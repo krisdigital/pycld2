@@ -88,7 +88,7 @@ detect(PyObject *self, PyObject *args, PyObject *kwArgs)
 
   if (!PyArg_ParseTupleAndKeywords(args,
                                    kwArgs,
-                                   "s|izzzziiiiiiii",
+                                   "s#|izzzziiiiiiii",
                                    (char **) kwList,
                                    &bytes,
                                    &isPlainText,
